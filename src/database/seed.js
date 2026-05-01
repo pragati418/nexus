@@ -9,7 +9,7 @@ const seed = async () => {
   const hashedAdmin = await bcrypt.hash('Admin@123', 12);
   const hashedMember = await bcrypt.hash('Member@123', 12);
 
-  const admin = db.prepare(`INSERT INTO users (name, email, password, role) VALUES (?, ?, ?, ?)`).run('Sarah Director', 'alice@taskmanager.io', hashedAdmin, 'admin');
+  const admin = db.prepare(`INSERT INTO users (name, email, password, role) VALUES (?, ?, ?, ?)`).run('Pragati Yadav', 'alice@taskmanager.io', hashedAdmin, 'admin');
   const bob = db.prepare(`INSERT INTO users (name, email, password, role) VALUES (?, ?, ?, ?)`).run('Michael Lead', 'bob@taskmanager.io', hashedMember, 'member');
   const carol = db.prepare(`INSERT INTO users (name, email, password, role) VALUES (?, ?, ?, ?)`).run('Emily Senior', 'carol@taskmanager.io', hashedMember, 'member');
 
