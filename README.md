@@ -1,4 +1,5 @@
 # 🚀 Nexus Manager — Team Task Manager
+[Live Demo](https://nexus-production-3786.up.railway.app)
 
 A full-stack team task management application with role-based access control, project tracking, Kanban board, and real-time dashboards.
 
@@ -91,9 +92,9 @@ Open [http://localhost:3000](http://localhost:3000)
 
 | Role | Email | Password |
 |------|-------|----------|
-| **Admin** | alice@taskmanager.io | Admin@123 |
-| **Member** | bob@taskmanager.io | Member@123 |
-| **Member** | carol@taskmanager.io | Member@123 |
+| **Manager** | alice@taskmanager.io | Admin@123 | Pragati Yadav |
+| **Staff** | bob@taskmanager.io | Member@123 | Michael Lead |
+| **Staff** | carol@taskmanager.io | Member@123 | Emily Senior |
 
 ## 🚂 Deploying to Railway
 
